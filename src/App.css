@@ -4,6 +4,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+button {
+  all: unset;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
