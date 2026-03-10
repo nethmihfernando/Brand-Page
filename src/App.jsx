@@ -10,7 +10,7 @@ function App() {
     <div>
       <nav>
         <div className='logo'>
-          <img src="/images/brand-logo.png" alt="Brand Logo" />
+          <img src="/images/brand_logo.png" alt="Brand Logo" />
         </div>
         <ul>
           <li href="#">Menu</li>
@@ -18,6 +18,8 @@ function App() {
           <li href="#">About</li>
           <li href="#">Contact</li>
         </ul>
+
+        <button>login</button>
       </nav>
     </div>
   )
