@@ -11,7 +11,7 @@ const HeroSection = () => {
 
             <div className="hero-btn">
                 <button>Shop Now</button>
-                <button>Category</button>
+                <button className="secondary-btn">Category</button>
             </div>
 
             <div className="shopping">
@@ -23,7 +23,9 @@ const HeroSection = () => {
                 </div>
             </div>
         </div>
-        <div className="hero-image"></div>
+        <div className="hero-image">
+            <img src="/images/hero-image.png" alt="Hero Image" />
+        </div>
         </main>
     );
 }

@@ -45,7 +45,29 @@ nav ul {
 .hero {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 72px);
+}
+
+.hero h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+
+.hero p {
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
 }
 /* #root {
   max-width: 1280px;
