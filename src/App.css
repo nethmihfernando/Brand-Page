@@ -48,6 +48,12 @@ nav ul {
   height: calc(100vh - 72px);
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
 .hero h1 {
   font-weight: 800;
   line-height: 102px;
