@@ -9,6 +9,7 @@ const HeroSection = () => {
                 SHOES.
             </p>
         </div>
+        <div className="hero-image"></div>
         </main>
     );
 }
