@@ -69,6 +69,11 @@ nav ul {
   color: var(--gray);
   border: 1px solid gray;
 }
+
+.shopping p {
+  font-size: 14px;
+  margin-top: 8px;
+} 
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
