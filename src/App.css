@@ -71,6 +71,10 @@ nav ul {
   gap: 40px;
 }
 
+.secondary-btn button{
+  font-size: 24px;
+}
+
 .secondary-btn {
   background: transparent;
   color: var(--gray);
