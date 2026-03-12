@@ -73,24 +73,13 @@ nav ul {
   gap: 40px;
 }
 
-.hero-image {
-  perspective: 1200px;
-  perspective-origin: center center;
-  scale: 0.9;
-}
-
 .hero-image img {
-  animation: spin3d 8s linear infinite;
-  transform-style: preserve-3d;
-  filter: drop-shadow(0 40px 60px rgba(0, 0, 0, 0.6));
+  animation: spinSelf 6s linear infinite;
 }
 
-@keyframes spin3d {
-  0%   { transform: rotateY(0deg) rotateX(10deg) scale(1); }
-  25%  { transform: rotateY(90deg) rotateX(5deg) scale(0.85); }
-  50%  { transform: rotateY(180deg) rotateX(10deg) scale(1); }
-  75%  { transform: rotateY(270deg) rotateX(5deg) scale(0.85); }
-  100% { transform: rotateY(360deg) rotateX(10deg) scale(1); }
+@keyframes spinSelf {
+  from { transform: rotateY(0deg); }
+  to   { transform: rotateY(360deg); }
 }
 
 .secondary-btn button{
