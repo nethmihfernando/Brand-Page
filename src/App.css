@@ -77,6 +77,10 @@ nav ul {
   animation: spinSelf 6s linear infinite;
 }
 
+.hero-image {
+  perspective: 1000px;
+}
+
 @keyframes spinSelf {
   from { transform: rotateY(0deg); }
   to   { transform: rotateY(360deg); }
