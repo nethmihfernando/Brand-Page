@@ -2,7 +2,8 @@
 
 :root {
   --red: #d01c28;
-  --gray: #2e2e2e;
+  --gray: #5c5656;
+  --blue: #142638d3;
 }
 
 * {
@@ -11,6 +12,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--blue);
 }
 
 button {
