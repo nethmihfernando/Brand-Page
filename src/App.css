@@ -74,12 +74,17 @@ nav ul {
 }
 
 .hero-image img {
-  animation: spin 8s linear infinite;
+  animation: floatRotate 4s ease-in-out infinite;
+  filter: drop-shadow(0 30px 40px rgba(0,0,0,0.4));
 }
 
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@keyframes floatRotate {
+  0%, 100% { 
+    transform: translateY(0px) rotate(-5deg); 
+  }
+  50% { 
+    transform: translateY(-25px) rotate(0deg); 
+  }
 }
 
 .secondary-btn button{
