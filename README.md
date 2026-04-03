@@ -2,7 +2,7 @@
 
 A sleek, responsive landing page built with React, inspired by the classic Nike brand aesthetic. This project focuses on clean UI design, modular component structure, and smooth CSS animations to create an engaging user experience.
 
---
+---
 
 ## 🚀 Features
 
@@ -16,4 +16,13 @@ A sleek, responsive landing page built with React, inspired by the classic Nike 
   <img src="public/images/brandpage.png" alt="Python Flower" width="500">
 </p>
 
---
+---
+
+## 🛠️ Tech Stack
+
+* **Framework**: React.js
+* **Styling**: Custom CSS with CSS Variables for consistent theming
+* **Typography**: Google Fonts (Poppins & Playfair Display)
+* **Build Tool**: Vite
+
+---
