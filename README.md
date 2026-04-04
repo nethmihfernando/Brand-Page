@@ -57,3 +57,10 @@ Feel free to check the [issues page](https://github.com/nethmihfernando/Brand-Pa
 5. Open a Pull Request
 
 ---
+
+## 🙌 Acknowledgments
+
+* Inspiration from the Nike official web aesthetics.
+* Built as part of a React learning journey focusing on component-based architecture and CSS animations.
+
+---
