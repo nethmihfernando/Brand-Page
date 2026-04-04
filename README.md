@@ -41,3 +41,13 @@ src/
 ├── App.css               # Primary styling and animations
 ├── index.css             # Global styles and resets
 └── main.jsx              # Application entry point
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/nethmihfernando/Brand-Page/issues).
+
+---
