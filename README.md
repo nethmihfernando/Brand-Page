@@ -26,3 +26,18 @@ A sleek, responsive landing page built with React, inspired by the classic Nike 
 * **Build Tool**: Vite
 
 ---
+
+## 📂 Project Structure
+
+```text
+public/
+└── images/               # Local assets (logos and product images)
+
+src/
+├── components/
+│   ├── Hero.jsx          # Hero section layout and content
+│   └── Navigation.jsx    # Header and navigation links
+├── App.jsx               # Main application assembly
+├── App.css               # Primary styling and animations
+├── index.css             # Global styles and resets
+└── main.jsx              # Application entry point
